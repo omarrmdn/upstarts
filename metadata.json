@@ -1,0 +1,6 @@
+{
+  "name": "UpStarts",
+  "description": "UpStarts - إدارة حملات الميديا باينج وجلب ليدز حقيقية لأصحاب المواقع والمتاجر | Media Buying & Qualified Leads",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
