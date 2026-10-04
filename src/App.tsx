@@ -802,47 +802,10 @@ export default function App() {
                   </button>
                 </form>
               </div>
-
-              <div className="social-card">
-                <p style={{ fontWeight: 700, color: 'var(--blue-6)' }}>
-                  {lang === 'ar' ? 'أو كلمنا على طول' : 'Or message us directly'}
-                </p>
-                <a className="social-btn" href="https://www.facebook.com/upstarts.agency/" target="_blank" rel="noopener noreferrer">
-                  <span className="ic t-fb">
-                    <svg className="ico">
-                      <use href="#i-fb" />
-                    </svg>
-                  </span>
-                  <span>{lang === 'ar' ? 'فيسبوك' : 'Facebook'}</span>
-                </a>
-                <a className="social-btn" href="https://www.instagram.com/upstarts.agency/" target="_blank" rel="noopener noreferrer">
-                  <span className="ic t-ig">
-                    <svg className="ico">
-                      <use href="#i-ig" />
-                    </svg>
-                  </span>
-                  <span>{lang === 'ar' ? 'انستجرام' : 'Instagram'}</span>
-                </a>
-                <a className="social-btn" href="https://wa.me/201065257252" target="_blank" rel="noopener noreferrer">
-                  <span className="ic t-wa">
-                    <svg className="ico">
-                      <use href="#i-wa" />
-                    </svg>
-                  </span>
-                  <span>{lang === 'ar' ? 'واتساب' : 'WhatsApp'}</span>
-                </a>
-              </div>
             </div>
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer>
-        <span>
-          {lang === 'ar' ? '© 2026 UpStarts. كل الحقوق محفوظة' : '© 2026 UpStarts. All rights reserved'}
-        </span>
-      </footer>
     </>
   );
 }
